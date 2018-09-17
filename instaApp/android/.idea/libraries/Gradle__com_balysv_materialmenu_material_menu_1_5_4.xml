@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.balysv.materialmenu:material-menu-1.5.4">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/0ffb0d5ba5eba89694e8de7aac174766/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/0ffb0d5ba5eba89694e8de7aac174766/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

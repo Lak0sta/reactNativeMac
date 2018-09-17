@@ -1,241 +1,343 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:2:1-15:12
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/21953068c97bc98c62015f616dd09580/AndroidManifest.xml:2:1-14:12
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/3f2e63094d0a1e95d6a987405203ed2c/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:17:1-31:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/745c40189a2e3cc9d801fb6c0cb7ffe5/AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e62abab6729a45c7637e8eae9db57ee0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/43df31399b6d5877866bd355560f1ea5/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9270dd04868cf73b2358d27f24af1920/AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/80960afb0ef9c1b9b123775c59066d31/AndroidManifest.xml:1:1-3:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e060415ce449b5b47d21423422abdb4d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/9b493406c94b91c66b28a4746290aa78/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/ce1f3bb7259e22099594a728d578b512/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7842ebb348bf989e67f2a38a3e50f19a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/ffc6d8b5fc18f15e5ffbdab7bd1d7d61/AndroidManifest.xml:17:1-26:12
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:17:1-31:12
+MERGED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\489fb5e2b13027774923d5b932b5dc34\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\1043b72e0a3cb4a05cb16ed7880413ae\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\bc794ac2b1c1c83a38340b40cadcbd60\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a049d25baff4e1a282a842b894ba6dc0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\d511b50dd5b981ab68f158fc46def57f\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\ccb831102855a068d6d22e8d8d77e031\AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\c23ee1b07c24811a5cebe933ef58432f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\16a0712bfbfdf2faa0e94308332e6048\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\2e684adcba21962d493134d4bcd39698\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\59731aea260a58c2ee8f6b5ec34b0977\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\96e541bbfaa07b9081d09b8e5882e341\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\0ffb0d5ba5eba89694e8de7aac174766\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:17:1-31:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
 	package
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:2:5-27
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:2:5-27
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:11:5-78
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:5:22-75
-application
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:13:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/21953068c97bc98c62015f616dd09580/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/21953068c97bc98c62015f616dd09580/AndroidManifest.xml:12:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/3f2e63094d0a1e95d6a987405203ed2c/AndroidManifest.xml:11:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/3f2e63094d0a1e95d6a987405203ed2c/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:29:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9270dd04868cf73b2358d27f24af1920/AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9270dd04868cf73b2358d27f24af1920/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/80960afb0ef9c1b9b123775c59066d31/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/80960afb0ef9c1b9b123775c59066d31/AndroidManifest.xml:2:3-17
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:29:5-20
-	android:label
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:icon
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:10:7-41
-	android:allowBackup
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:11:7-34
-	android:theme
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:8:9-40
-activity#com.instaapp.MainActivity
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:13:7-22:18
-	android:label
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:15:9-41
-	android:windowSoftInputMode
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:17:9-51
-	android:configChanges
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:18:9-21:25
-action#android.intent.action.MAIN
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:19:13-65
-	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:19:21-62
-category#android.intent.category.LAUNCHER
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:20:13-73
-	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:20:23-70
-activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:23:7-84
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:23:17-81
-uses-sdk
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/4e695d486fa856525500a784633112d0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/21953068c97bc98c62015f616dd09580/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/21953068c97bc98c62015f616dd09580/AndroidManifest.xml:8:5-10:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/3f2e63094d0a1e95d6a987405203ed2c/AndroidManifest.xml:7:5-9:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/3f2e63094d0a1e95d6a987405203ed2c/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:21:5-23:54
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/745c40189a2e3cc9d801fb6c0cb7ffe5/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/745c40189a2e3cc9d801fb6c0cb7ffe5/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e62abab6729a45c7637e8eae9db57ee0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/e62abab6729a45c7637e8eae9db57ee0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/43df31399b6d5877866bd355560f1ea5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/43df31399b6d5877866bd355560f1ea5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9270dd04868cf73b2358d27f24af1920/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/9270dd04868cf73b2358d27f24af1920/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e060415ce449b5b47d21423422abdb4d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e060415ce449b5b47d21423422abdb4d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/9b493406c94b91c66b28a4746290aa78/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/9b493406c94b91c66b28a4746290aa78/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/ce1f3bb7259e22099594a728d578b512/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/ce1f3bb7259e22099594a728d578b512/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7842ebb348bf989e67f2a38a3e50f19a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/7842ebb348bf989e67f2a38a3e50f19a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/ffc6d8b5fc18f15e5ffbdab7bd1d7d61/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/ffc6d8b5fc18f15e5ffbdab7bd1d7d61/AndroidManifest.xml:20:5-43
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/90cdefb1184a674e1f2349c97d5f4a54/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml
-activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
-	android:configChanges
-		ADDED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
-	android:name
-		ADDED from [:react-native-navigation] /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ec783505111d044a1907e2d28861dae8/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/93ac4b0d89a2297662b51d708ed8d189/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/ffc6d8b5fc18f15e5ffbdab7bd1d7d61/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/ffc6d8b5fc18f15e5ffbdab7bd1d7d61/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/9525979367bbaf909332fc4f6c0bb0f0/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/6162ba82a13004ce500580d826797076/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3d8b9c8f848209b7b1b5b174ab9b3344/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4ca30d25863a994e42abd553f35d9d90/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/fa8c951fd8744601bc45caa87f434926/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f59d52b3aed2fe71bd1b34fad8e397b9/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/02571bee79aa24767526fb644e6f9593/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/33942fa001b58f1c5b720420746c47a3/AndroidManifest.xml:26:9-47
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\489fb5e2b13027774923d5b932b5dc34\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\489fb5e2b13027774923d5b932b5dc34\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\d511b50dd5b981ab68f158fc46def57f\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\d511b50dd5b981ab68f158fc46def57f\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\ccb831102855a068d6d22e8d8d77e031\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\ccb831102855a068d6d22e8d8d77e031\AndroidManifest.xml:2:3-17
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:7:5-11:19
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\0ffb0d5ba5eba89694e8de7aac174766\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\0ffb0d5ba5eba89694e8de7aac174766\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:12:7-39
+	android:icon
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:15:7-38
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:11:7-38
+activity#com.rncourse.MainActivity
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:16:7-25:18
+	android:label
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:18:9-41
+	android:windowSoftInputMode
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:19:9-79
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:21:9-24:25
+action#android.intent.action.MAIN
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:22:21-62
+category#android.intent.category.LAUNCHER
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:23:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:26:7-84
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:26:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:27:7-29:66
+	android:value
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:29:9-64
+	android:name
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:28:9-54
+uses-sdk
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cb8c3a3bfb8b5406b619a00357309b01\AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:21:5-23:78
+MERGED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\489fb5e2b13027774923d5b932b5dc34\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\489fb5e2b13027774923d5b932b5dc34\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\1043b72e0a3cb4a05cb16ed7880413ae\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\1043b72e0a3cb4a05cb16ed7880413ae\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\bc794ac2b1c1c83a38340b40cadcbd60\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\bc794ac2b1c1c83a38340b40cadcbd60\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a049d25baff4e1a282a842b894ba6dc0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a049d25baff4e1a282a842b894ba6dc0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\d511b50dd5b981ab68f158fc46def57f\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\d511b50dd5b981ab68f158fc46def57f\AndroidManifest.xml:2:3-70
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\c23ee1b07c24811a5cebe933ef58432f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\c23ee1b07c24811a5cebe933ef58432f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\16a0712bfbfdf2faa0e94308332e6048\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\16a0712bfbfdf2faa0e94308332e6048\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\2e684adcba21962d493134d4bcd39698\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\2e684adcba21962d493134d4bcd39698\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\59731aea260a58c2ee8f6b5ec34b0977\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\59731aea260a58c2ee8f6b5ec34b0977\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\96e541bbfaa07b9081d09b8e5882e341\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\96e541bbfaa07b9081d09b8e5882e341\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\0ffb0d5ba5eba89694e8de7aac174766\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\0ffb0d5ba5eba89694e8de7aac174766\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:21:5-23:58
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9bac0ecd9d289381a79bf29f9f020aab\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\fe5cc827210d5f26eeb143ba27b09287\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5246de150d43fea0d26ada3fbdf02e1d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\7befcf320559addd50b347fc5a863e4e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\5d2f98c25785d46b55109e8bd2c7834f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\96e541bbfaa07b9081d09b8e5882e341\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\96e541bbfaa07b9081d09b8e5882e341\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\edb0545d3a13277c754fd3c3ad2b12e9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b42b63ac9483c7b326df744aff60edb2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b91200a71d8fc7e42e2059bb3253f731\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ebabb604b937652b659ae58fc9b2c400\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c9c7175770f9c88ded3c08306efb06c6\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\951a866ba852cbe4fa62d772e96652c4\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] G:\DaniilWork\study\reactNativeMac\instaApp\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\298af29181270ff2ca5f7fc4d0cc40f7\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\93703d58f16dc0f0bd5639085bffb44b\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09ad58dfe873bd464b50b79228e74fc9\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\bc4dc92e92bb8c7008a1b2d19981f6de\AndroidManifest.xml:20:20-65
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from G:\DaniilWork\study\reactNativeMac\instaApp\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
