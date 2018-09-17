@@ -11,7 +11,7 @@ const startTabs = () => {
         Navigation.startTabBasedApp({
             tabs: [
                 {
-                    screen: "awesome-places.FindPlaceScreen",
+                    screen: "insta-app.FindPlaceScreen",
                     label: "Find Place",
                     title: "Find Place",
                     icon: sources[0],
@@ -26,7 +26,7 @@ const startTabs = () => {
                     }
                 },
                 {
-                    screen: "awesome-places.SharePlaceScreen",
+                    screen: "insta-app.SharePlaceScreen",
                     label: "Share Place",
                     title: "Share Place",
                     icon: sources[1],
@@ -46,7 +46,7 @@ const startTabs = () => {
             },
             drawer: {
                 left: {
-                    screen: "awesome-places.SideDrawer"
+                    screen: "insta-app.SideDrawer"
                 }
             },
             appStyle: {

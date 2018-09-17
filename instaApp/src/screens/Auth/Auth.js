@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from 'axios';
 import {
   View,
   Text,
@@ -61,11 +62,17 @@ class AuthScreen extends Component {
 
   componentDidMount() {
     this.props.onAutoSignIn();
+    // this.makeTestAxiosRequest();
   }
 
   componentWillUnmount() {
     Dimensions.removeEventListener("change", this.updateStyles);
   }
+
+  // async makeTestAxiosRequest() {
+  //   let { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+  //   alert(data);
+  // }
 
   switchAuthModeHandler = () => {
     this.setState(prevState => {

@@ -71,7 +71,7 @@ class FindPlaceScreen extends Component {
       return place.key === key;
     });
     this.props.navigator.push({
-      screen: "awesome-places.PlaceDetailScreen",
+      screen: "insta-app.PlaceDetailScreen",
       title: selPlace.name,
       passProps: {
         selectedPlace: selPlace
