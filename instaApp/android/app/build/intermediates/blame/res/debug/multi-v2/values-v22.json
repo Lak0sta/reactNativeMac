@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/daniilstashevskiy/Desktop/reactNativeMac/instaApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "G:\\DaniilWork\\study\\reactNativeMac\\instaApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/daniilstashevskiy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/09916f3f58ba165ba132fa3817a34e93/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\stashevskiy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\9bac0ecd9d289381a79bf29f9f020aab\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
