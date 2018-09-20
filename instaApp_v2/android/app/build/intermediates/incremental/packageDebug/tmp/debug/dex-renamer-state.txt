@@ -1,0 +1,4 @@
+#Thu Sep 20 16:38:09 EEST 2018
+base.0=G\:\\DaniilWork\\study\\reactNativeMac\\instaApp_v2\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+path.0=classes.dex
