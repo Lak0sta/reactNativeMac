@@ -17,6 +17,7 @@ Navigation.registerComponent("insta-appv2.FeedScreen", () => FeedScreen, store, 
 Navigation.registerComponent("insta-appv2.SearchScreen", () => SearchScreen, store, Provider);
 Navigation.registerComponent("insta-appv2.ProfileScreen", () => ProfileScreen, store, Provider);
 
+
 // Start an App
 export default () => Navigation.startSingleScreenApp({
   screen: {
