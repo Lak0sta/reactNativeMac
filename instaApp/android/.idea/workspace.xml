@@ -6212,8 +6212,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-navigation/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="296">
+          <caret line="142" column="54" lean-forward="false" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
+=======
         <state relative-caret-position="85">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+>>>>>>> 8204cca974cb5eeb3866ca4ec3c016c0a2622eda
           <folding />
         </state>
       </provider>
