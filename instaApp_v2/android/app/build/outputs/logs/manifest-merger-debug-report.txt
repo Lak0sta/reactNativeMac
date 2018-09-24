@@ -6,6 +6,7 @@ INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp_v2\android\app\src\mai
 INJECTED from G:\DaniilWork\study\reactNativeMac\instaApp_v2\android\app\src\main\AndroidManifest.xml:1:1-26:12
 MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d950089a10793ae6574efe080ff95473\AndroidManifest.xml:2:1-15:12
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:2:1-14:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\7214dff3686cd2b8675533223fb10b78\AndroidManifest.xml:2:1-13:12
@@ -142,6 +143,8 @@ MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaA
 MERGED from [:react-native-navigation] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] G:\DaniilWork\study\reactNativeMac\instaApp_v2\node_modules\react-native-svg\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d950089a10793ae6574efe080ff95473\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\d950089a10793ae6574efe080ff95473\AndroidManifest.xml:7:5-9:41
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\stashevskiy\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\6fd87c3e6d0cc719fe901e212ee12c08\AndroidManifest.xml:8:5-10:41

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Sep 20 16:38:11 EEST 2018
+#Mon Sep 24 17:19:11 EEST 2018
 23.set=DEX
 2.base=G\:\\DaniilWork\\study\\reactNativeMac\\instaApp_v2\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 15.set=NATIVE_RESOURCE

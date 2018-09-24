@@ -1,2 +1,2 @@
-export { authStartLoading, authStopLoading } from './auth';
+export { authStartLoading, authStopLoading, tryAuth } from './auth';
 export { uiStartLoading, uiStopLoading } from './ui';
