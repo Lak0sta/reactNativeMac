@@ -1,32 +1,47 @@
+import { AsyncStorage } from 'react-native';
 import axios from 'axios';
-import { AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN } from './actionTypes';
+import * as types from './actionTypes';
 import { api } from '../../modules/api';
+import startMainTabs from '../../screens/MainTabs/MainTabs';
 
 
 export const tryAuth = (authData, authMode) => async dispatch => {
-  const { data } = await axios.post(api.auth.login(), authData);
-  console.log(data);
-
-  // if (token) {
-  //   // Dispatch an action saying FB login is done
-  //   dispatch({
-  //     type: types.FACEBOOK_LOGIN_SUCCESS,
-  //     payload: token
-  //   })
-  // } else {
-  //   // Start up FB Login process
-  //   doFacebookLogin(dispatch);
-  // }
+  if (authMode === 'signup') {
+    signUp(authData);
+  } else {
+    logIn(dispatch, authData);
+  }
 };
 
-export const authStartLoading = () => {
-  return {
-    type: AUTH_SET_TOKEN
-  };
+const signUp = async payload => {
+  try {
+    await axios.post(api.auth.signUp(), payload);
+    alert('Your request was successfully sent, please check you email for account activation')
+  } catch (err) {
+    if (err.response.status === 400) {
+      alert('Something went wrong with data, check input fields');
+    } else {
+      alert('Something wnet wrong, please try again');
+    }
+  }
 };
 
-export const authStopLoading = () => {
-  return {
-    type: AUTH_REMOVE_TOKEN
-  };
+const logIn = async (dispatch, payload) => {
+  try {
+    const { data } = await axios.post(api.auth.login(), payload);
+    await AsyncStorage.setItem('at', data.token);
+    dispatch({
+      type: types.AUTH_SET_TOKEN,
+      payload: data
+    });
+    startMainTabs();
+  } catch(err) {
+    if (err.response.status === 400) {
+      alert(`${err.response.data.errors[0].message}`)
+    } else if (err.response.status === 500) {
+      alert('Something went wrong, please try again!')
+    } else {
+      alert('Unauthorized, please, login again');
+    }
+  }
 };

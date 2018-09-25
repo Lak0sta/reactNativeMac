@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, AsyncStorage} from 'react-native';
 import Slides from '../../components/Slides';
+import startMainTabs from '../MainTabs/MainTabs';
 
 const SLIDE_DATA = [
   {
@@ -24,13 +25,7 @@ class WelcomeScreen extends Component {
     let token = await AsyncStorage.getItem('at');
 
     if (token) {
-      this.props.navigator.push({
-        screen: 'insta-appv2.FeedScreen',
-        title: '',
-        navigatorStyle: {
-          navBarHidden: true
-        }
-      });
+      startMainTabs();
       this.setState({ token });
     } else {
       this.setState({ token: false });

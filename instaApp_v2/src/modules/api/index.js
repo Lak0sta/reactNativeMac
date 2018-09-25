@@ -2,7 +2,7 @@ let baseUrl = 'https://api-dev.historysearch.net/v1/'
 
 const auth = {
   signUp () {
-    return `users`
+    return `${baseUrl}users`
   },
   login () {
     return `${baseUrl}auth`

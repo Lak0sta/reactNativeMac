@@ -51,6 +51,14 @@ class AuthScreen extends Component {
           equalTo: "password"
         },
         touched: false
+      },
+      name: {
+        value: "",
+        valid: false,
+        validationRules: {
+          notEmpty: true
+        },
+        touched: false
       }
     }
   };
@@ -83,10 +91,19 @@ class AuthScreen extends Component {
   };
 
   authHandler = () => {
-    const authData = {
-      email: this.state.controls.email.value,
-      password: this.state.controls.password.value
-    };
+    let authData = null;
+    if (this.state.authMode === "signup") {
+      authData = {
+        email: this.state.controls.email.value,
+        password: this.state.controls.password.value,
+        name: this.state.controls.name.value
+      };
+    } else {
+      authData = {
+        email: this.state.controls.email.value,
+        password: this.state.controls.password.value
+      };
+    }
     this.props.onTryAuth(authData, this.state.authMode);
   };
 
@@ -139,12 +156,14 @@ class AuthScreen extends Component {
   render() {
     let headingText = null;
     let confirmPasswordControl = null;
+    let nameControl = null;
     let submitButton = (
       <ButtonWithBackground
         color="#29aaf4"
         onPress={this.authHandler}
         disabled={
           !this.state.controls.confirmPassword.valid && this.state.authMode === "signup" ||
+          !this.state.controls.name.valid && this.state.authMode === "signup" ||
           !this.state.controls.email.valid ||
           !this.state.controls.password.valid
         }
@@ -177,6 +196,22 @@ class AuthScreen extends Component {
             valid={this.state.controls.confirmPassword.valid}
             touched={this.state.controls.confirmPassword.touched}
             secureTextEntry
+          />
+        </View>
+      );
+      nameControl = (
+        <View
+          style={
+            styles.portraitPasswordWrapper
+          }
+        >
+          <DefaultInput
+            placeholder="Enter your Name"
+            style={styles.input}
+            value={this.state.controls.name.value}
+            onChangeText={val => this.updateInputState("name", val)}
+            valid={this.state.controls.name.valid}
+            touched={this.state.controls.name.touched}
           />
         </View>
       );
@@ -238,6 +273,7 @@ class AuthScreen extends Component {
                 </View>
                 {confirmPasswordControl}
               </View>
+              {nameControl}
             </View>
           </TouchableWithoutFeedback>
           {submitButton}
@@ -263,7 +299,8 @@ const styles = StyleSheet.create({
   },
   input: {
     backgroundColor: "#eee",
-    borderColor: "#bbb"
+    borderColor: "#bbb",
+    borderRadius: 5
   },
   landscapePasswordContainer: {
     flexDirection: "row",

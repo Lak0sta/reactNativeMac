@@ -3,72 +3,43 @@ import { Platform } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const startTabs = () => {
-    Promise.all([
-        Icon.getImageSource(Platform.OS === 'android' ? "md-map" : "ios-map", 30),
-        Icon.getImageSource(Platform.OS === 'android' ? "md-share-alt" : "ios-share", 30),
-        Icon.getImageSource(Platform.OS === 'android' ? "md-menu" : "ios-menu", 30)
-    ]).then(sources => {
-        Navigation.startTabBasedApp({
-            tabs: [
-                {
-                    screen: "insta-appv2.FeedScreen",
-                    label: "Find Place",
-                    title: "Find Place",
-                    icon: sources[0],
-                    navigatorButtons: {
-                        leftButtons: [
-                            {
-                                icon: sources[2],
-                                title: "Menu",
-                                id: "sideDrawerToggle"
-                            }
-                        ]
-                    }
-                },
-                {
-                    screen: "insta-appv2.SearchScreen",
-                    label: "Share Place",
-                    title: "Share Place",
-                    icon: sources[1],
-                    navigatorButtons: {
-                        leftButtons: [
-                            {
-                                icon: sources[2],
-                                title: "Menu",
-                                id: "sideDrawerToggle"
-                            }
-                        ]
-                    }
-                },
-                {
-                  screen: "insta-appv2.ProfileScreen",
-                  label: "Profile",
-                  title: "Profile",
-                  icon: sources[1],
-                  navigatorButtons: {
-                      leftButtons: [
-                          {
-                              icon: sources[2],
-                              title: "Menu",
-                              id: "sideDrawerToggle"
-                          }
-                      ]
-                  }
-              }
-            ],
-            tabsStyle: {
-                tabBarSelectedButtonColor: "orange"
-            },
-            drawer: {
-                left: {
-                    screen: "insta-appv2.AuthScreen"
-                }
-            },
-            appStyle: {
-                tabBarSelectedButtonColor: "orange"
-            },
-        });
+  Promise.all([
+    Icon.getImageSource(Platform.OS === 'android' ? "md-home" : "ios-home", 30),
+    Icon.getImageSource(Platform.OS === 'android' ? "md-search" : "ion-search", 30),
+    Icon.getImageSource(Platform.OS === 'android' ? "md-person" : "ios-person", 30)
+  ]).then(sources => {
+    Navigation.startTabBasedApp({
+      tabs: [
+        {
+          screen: "insta-appv2.FeedScreen",
+          icon: sources[0],
+          navigatorStyle: {
+            navBarHidden: true
+          }
+        },
+        {
+          screen: "insta-appv2.SearchScreen",
+          icon: sources[1],
+          navigatorStyle: {
+            navBarHidden: true
+          }
+        },
+        {
+          screen: "insta-appv2.ProfileScreen",
+          icon: sources[2],
+          navigatorStyle: {
+            navBarHidden: true
+          }
+        }
+      ],
+      tabsStyle: {
+        tabBarSelectedButtonColor: "#2ac414"
+      },
+      appStyle: {
+        tabBarSelectedButtonColor: "#2ac414"
+      },
     });
+  });
 };
 
 export default startTabs;

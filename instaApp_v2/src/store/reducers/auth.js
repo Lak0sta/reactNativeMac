@@ -4,8 +4,10 @@ import {
 } from '../actions/actionTypes';
 
 const initialState = {
-  token: null,
-  expiryDate: null
+  auth: {
+    token: null,
+    expires_at: null
+  }
 };
 
 const reducer = (state = initialState, action) => {
@@ -13,8 +15,7 @@ const reducer = (state = initialState, action) => {
     case AUTH_SET_TOKEN:
       return {
         ...state,
-        token: action.token,
-        expiryDate: action.expiryDate
+        auth: action.payload
       };
 
     case AUTH_REMOVE_TOKEN:
