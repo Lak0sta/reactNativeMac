@@ -1,54 +1,52 @@
 let baseUrl = 'https://api-dev.historysearch.net/v1/'
 
 const auth = {
-  signUp () {
+  signUp() {
     return `${baseUrl}users`
   },
-  login () {
+  login() {
     return `${baseUrl}auth`
-  },
-  forgotPasswordEmail () {
-    return `auth/forgot_password`
-  },
-  forgotPasswordPass () {
-    return `auth/update_password`
-  },
-  updateEmail () {
-    return `auth/update_email`
+  }
+}
+
+const profile = {
+  info() {
+    return `${baseUrl}account`
   }
 }
 
 const events = {
-  page (currentPage) {
+  page(currentPage) {
     return `admin/get_event_list/${currentPage}`
   },
-  currentEvent (id) {
+  currentEvent(id) {
     return `event/${id}`
   },
-  add () {
+  add() {
     return `users/create_event`
   },
-  update () {
+  update() {
     return `users/update_event`
   },
-  delete () {
+  delete() {
     return `admin/delete_event`
   },
-  registrations (id) {
+  registrations(id) {
     return `admin/gps_per_event/${id}`
   },
-  upload () {
+  upload() {
     return `admin/upload_csv`
   },
-  search () {
+  search() {
     return `admin/search`
   },
-  saveInApp () {
+  saveInApp() {
     return `users/add_event`
   }
 }
 
 export const api = {
   auth,
-  events
+  events,
+  profile
 }

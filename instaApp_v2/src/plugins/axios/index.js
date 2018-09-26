@@ -1,4 +1,4 @@
-import axios from 'axios'
+import * as axios from 'axios'
 import { AsyncStorage } from 'react-native';
 
 
@@ -8,26 +8,18 @@ const axiosConfig = ({
     'Content-Type': 'application/json'
   },
   data: {}
-})
+});
 
-const instance = axios.create(axiosConfig)
+const instance = axios.create(axiosConfig);
 
-axios.interceptors.request.use((config) => {
-   if(AsyncStorage.getItem('at')) {
-      config.headers['Authorization'] = `Bearer ${AsyncStorage.getItem('at')}`
-   }
-  return config
+axios.interceptors.request.use(async (config) => {
+    const token = await AsyncStorage.getItem('at');
+    if (token !== null) {
+      config.headers['Authorization'] = `Bearer ${token}`;
+    }
+    return config;
 }, (err) => {
   return Promise.reject(err)
-})
+});
 
-// Vue.axios.interceptors.response.use((response) => {
-//   return response
-// }, (err) => {
-//   if (err.config.data === '{}') {
-//     store.dispatch('deauthenticateUser')
-//     router.replace({ name: 'login' })
-//   }
-// })
-
-export default instance
+export { instance as default };

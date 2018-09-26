@@ -1,8 +1,9 @@
 import { AsyncStorage } from 'react-native';
-import axios from 'axios';
+import axios from '../../plugins/axios';
 import * as types from './actionTypes';
 import { api } from '../../modules/api';
 import startMainTabs from '../../screens/MainTabs/MainTabs';
+import App from '../../../App';
 
 
 export const tryAuth = (authData, authMode) => async dispatch => {
@@ -44,4 +45,12 @@ const logIn = async (dispatch, payload) => {
       alert('Unauthorized, please, login again');
     }
   }
+};
+
+export const logOut = () => async dispatch => {
+  await AsyncStorage.removeItem('at');
+  dispatch({
+    type: types.AUTH_REMOVE_TOKEN
+  });
+  App();
 };
