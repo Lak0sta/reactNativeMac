@@ -187,6 +187,7 @@ class AccountScreen extends React.Component {
                 touched={this.state.controls.oldPassword.touched}
                 secureTextEntry
               />
+
               <DefaultInput
                 placeholder="New Password"
                 style={styles.input}
