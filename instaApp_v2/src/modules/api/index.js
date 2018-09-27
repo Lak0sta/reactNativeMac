@@ -9,9 +9,12 @@ const auth = {
   }
 }
 
-const profile = {
+const account = {
   info() {
     return `${baseUrl}account`
+  },
+  updatePassword() {
+    return `${baseUrl}account/password`
   }
 }
 
@@ -48,5 +51,5 @@ const events = {
 export const api = {
   auth,
   events,
-  profile
+  account
 }

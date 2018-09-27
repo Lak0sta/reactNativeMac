@@ -4,6 +4,7 @@ import * as types from './actionTypes';
 import { api } from '../../modules/api';
 import startMainTabs from '../../screens/MainTabs/MainTabs';
 import App from '../../../App';
+import { uiStartLoading, uiStopLoading } from './index';
 
 
 export const tryAuth = (authData, authMode) => async dispatch => {
@@ -16,8 +17,10 @@ export const tryAuth = (authData, authMode) => async dispatch => {
 
 const signUp = async payload => {
   try {
+    dispatch(uiStartLoading());
     await axios.post(api.auth.signUp(), payload);
     alert('Your request was successfully sent, please check you email for account activation')
+    dispatch(uiStopLoading());
   } catch (err) {
     if (err.response.status === 400) {
       alert('Something went wrong with data, check input fields');
@@ -29,6 +32,7 @@ const signUp = async payload => {
 
 const logIn = async (dispatch, payload) => {
   try {
+    dispatch(uiStartLoading());
     const { data } = await axios.post(api.auth.login(), payload);
     await AsyncStorage.setItem('at', data.token);
     dispatch({
@@ -36,6 +40,7 @@ const logIn = async (dispatch, payload) => {
       payload: data
     });
     startMainTabs();
+    dispatch(uiStopLoading());
   } catch(err) {
     if (err.response.status === 400) {
       alert(`${err.response.data.errors[0].message}`)

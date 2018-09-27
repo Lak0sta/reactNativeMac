@@ -25,7 +25,7 @@ const startTabs = () => {
           }
         },
         {
-          screen: "insta-appv2.ProfileScreen",
+          screen: "insta-appv2.AccountScreen",
           icon: sources[2],
           navigatorStyle: {
             navBarHidden: true

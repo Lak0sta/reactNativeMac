@@ -5,7 +5,7 @@ import WelcomeScreen from './src/screens/Welcome/Welcome';
 import AuthScreen from "./src/screens/Auth/Auth";
 import FeedScreen from "./src/screens/Feed/Feed";
 import SearchScreen from "./src/screens/Search/Search";
-import ProfileScreen from "./src/screens/Profile/Profile";
+import AccountScreen from "./src/screens/Account/Account";
 import configureStore from './src/store/configureStore';
 import './src/plugins/axios'; 
 
@@ -16,7 +16,7 @@ Navigation.registerComponent("insta-appv2.WelcomeScreen", () => WelcomeScreen, s
 Navigation.registerComponent("insta-appv2.AuthScreen", () => AuthScreen, store, Provider);
 Navigation.registerComponent("insta-appv2.FeedScreen", () => FeedScreen, store, Provider);
 Navigation.registerComponent("insta-appv2.SearchScreen", () => SearchScreen, store, Provider);
-Navigation.registerComponent("insta-appv2.ProfileScreen", () => ProfileScreen, store, Provider);
+Navigation.registerComponent("insta-appv2.AccountScreen", () => AccountScreen, store, Provider);
 
 XMLHttpRequest = GLOBAL.originalXMLHttpRequest ?
     GLOBAL.originalXMLHttpRequest :

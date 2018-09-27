@@ -1,15 +1,15 @@
 import * as types from '../actions/actionTypes';
 
 const initialState = {
-  profileInfo: {}
+  accountInfo: {}
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case types.SET_PROFILE_INFO:
+    case types.SET_ACCOUNT_INFO:
       return {
         ...state,
-        profileInfo: action.payload
+        accountInfo: action.payload
       };
   
     default:

@@ -1,12 +1,21 @@
 import React from 'react';
-import { StyleSheet, Text, View, Animated, Easing, Keyboard, TouchableWithoutFeedback } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Animated,
+  Easing,
+  Keyboard,
+  TouchableWithoutFeedback,
+  ActivityIndicator
+} from 'react-native';
 import ButtonWithBackground from '../../components/UI/ButtonWithBackground';
 import DefaultInput from '../../components/UI/DefaultInput';
 import { connect } from 'react-redux';
 
-import { setProfileInfo, logOut } from '../../store/actions/index';
+import { setAccountInfo, logOut, updateAccountPassword } from '../../store/actions';
 import validate from "../../utils/validation";
-class ProfileScreen extends React.Component {
+class AccountScreen extends React.Component {
   state = {
     showPasswordFields: false,
     removeAnim: new Animated.Value(0),
@@ -85,8 +94,31 @@ class ProfileScreen extends React.Component {
     });
   };
 
+  updatePassword = () => {
+    const payload = {
+      old_value: this.state.controls.oldPassword.value,
+      new_value: this.state.controls.newPassword.value
+    };
+    this.props.changePassword(payload);
+    this.setState(prevState => ({
+      controls: {
+        ...prevState.controls,
+        oldPassword: {
+          value: ""
+        },
+        newPassword: {
+          value: ""
+        },
+        confirmNewPassword: {
+          value: ""
+        }
+      },
+      showPasswordFields: !prevState.showPasswordFields
+    }));
+  }
+
   componentWillMount() {
-    this.props.setProfileInfo();
+    this.props.setAccountInfo();
   }
 
   togglePasswordFields = () => {
@@ -113,31 +145,35 @@ class ProfileScreen extends React.Component {
         }));
       });
     }
-
   }
 
   render() {
-    return (
-      <View style={styles.container}>
-        <View style={styles.profileItem}>
-          <Text style={styles.profileItem__text}>Hello {this.props.profileInfo.name}</Text>
+    let forgotPassContent = null;
+    let profile = (
+      <View style={styles.accountInfo}>
+        <View style={styles.accountItem}>
+          <Text style={styles.accountItem__text}>Hello {this.props.accountInfo.name}</Text>
         </View>
-        <View style={styles.profileItem}>
-          <Text style={styles.profileItem__text}>Your account type: {this.props.profileInfo.plan}</Text>
+        <View style={styles.accountItem}>
+          <Text style={styles.accountItem__text}>Your account type: {this.props.accountInfo.plan}</Text>
         </View>
-        <View style={styles.profileItem}>
-          <Text style={styles.profileItem__text}>Your email: {this.props.profileInfo.email}</Text>
+        <View style={styles.accountItem}>
+          <Text style={styles.accountItem__text}>Your email: {this.props.accountInfo.email}</Text>
         </View>
         <ButtonWithBackground
           color="#2ac414"
           onPress={this.togglePasswordFields}
         >
           Tap to change password
-        </ButtonWithBackground>
+            </ButtonWithBackground>
+      </View>
+    );
+    if (this.state.showPasswordFields) {
+      forgotPassContent = (
         <Animated.View
           style={[
-              {opacity: !this.state.showPasswordFields ? this.state.removeAnim : this.state.startAnim},
-              {width: '80%'}
+            { opacity: !this.state.showPasswordFields ? this.state.removeAnim : this.state.startAnim },
+            styles.togglePassword
           ]}
         >
           <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
@@ -172,26 +208,44 @@ class ProfileScreen extends React.Component {
             </View>
           </TouchableWithoutFeedback>
           <View style={styles.buttonContainer}>
-          <ButtonWithBackground
-            color="#2ac414"
-            onPress={this.props.logOutUser}
-          >
-            Save
-          </ButtonWithBackground>
-          <ButtonWithBackground
-            color="#2ac414"
-            onPress={this.props.logOutUser}
-          >
-            Cancel
-          </ButtonWithBackground>
+            <ButtonWithBackground
+              disabled={
+                !this.state.controls.oldPassword.valid ||
+                !this.state.controls.newPassword.valid ||
+                !this.state.controls.confirmNewPassword.valid
+              }
+              color="#2ac414"
+              onPress={this.updatePassword}
+            >
+              Save
+            </ButtonWithBackground>
+            <ButtonWithBackground
+              color="#2ac414"
+              onPress={this.togglePasswordFields}
+            >
+              Cancel
+            </ButtonWithBackground>
           </View>
         </Animated.View>
-        <ButtonWithBackground
-          color="#2ac414"
-          onPress={this.props.logOutUser}
-        >
-          Log out
-          </ButtonWithBackground>
+      );
+    }
+
+    if (this.props.isLoading) {
+      profile = <ActivityIndicator />
+    }
+
+    return (
+      <View style={styles.container}>
+        {profile}
+        {forgotPassContent}
+        <View style={{ marginBottom: 15 }}>
+          <ButtonWithBackground
+            color="#2ac414"
+            onPress={this.props.logOutUser}
+          >
+            Log out
+            </ButtonWithBackground>
+        </View>
       </View>
     );
   }
@@ -201,14 +255,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center'
+    alignItems: 'center',
+    justifyContent: 'space-between'
   },
-  profileItem: {
-    margin: 20,
+  accountInfo: {
+    width: "95%"
+  },
+  accountItem: {
+    margin: 10,
     width: '100%',
     justifyContent: 'space-between'
   },
-  profileItem__text: {
+  accountItem__text: {
     fontSize: 20,
     color: "#000"
   },
@@ -218,27 +276,35 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   inputContainer: {
-    width: "100%"
+    flex: 0
+  },
+  togglePassword: {
+    flex: 1,
+    width: "80%",
+    flexGrow: 1
   },
   buttonContainer: {
-    // flex: 3,
-    // flexDirection: "row",
-    // justifyContent: "space-between",
-    width: "80%"
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    height: "100%"
   }
 });
 
 const mapStateToProps = state => {
   return {
-    profileInfo: state.profile.profileInfo
+    accountInfo: state.account.accountInfo,
+    isLoading: state.ui.isLoading
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    setProfileInfo: () => dispatch(setProfileInfo()),
-    logOutUser: () => dispatch(logOut())
+    setAccountInfo: () => dispatch(setAccountInfo()),
+    logOutUser: () => dispatch(logOut()),
+    changePassword: payload => dispatch(updateAccountPassword(payload))
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProfileScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(AccountScreen);

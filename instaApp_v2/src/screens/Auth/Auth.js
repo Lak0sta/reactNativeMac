@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import {
   View,
-  Text,
-  Button,
-  TextInput,
   StyleSheet,
   ImageBackground,
   Dimensions,
@@ -159,7 +156,7 @@ class AuthScreen extends Component {
     let nameControl = null;
     let submitButton = (
       <ButtonWithBackground
-        color="#29aaf4"
+        color="transparent"
         onPress={this.authHandler}
         disabled={
           !this.state.controls.confirmPassword.valid && this.state.authMode === "signup" ||

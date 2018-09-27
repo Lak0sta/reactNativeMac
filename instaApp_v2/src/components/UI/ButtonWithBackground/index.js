@@ -18,8 +18,7 @@ const buttonWithBackground = props => {
       ]}
     >
       <Text style={[
-          props.disabled ? styles.disabledText : null,
-          styles.text
+          props.disabled ? styles.disabledText : styles.text,
         ]}
       >
         {props.children}
