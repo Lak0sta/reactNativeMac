@@ -1,15 +1,15 @@
-import axios from 'axios';
+import axios from '../../plugins/axios';
 import * as types from './actionTypes';
 import { api } from '../../modules/api';
 import { uiStartLoading, uiStopLoading } from './index';
 
 
-export const setAccountInfo = () => async dispatch => {
+export const setAccountPlan = () => async dispatch => {
   try {
     dispatch(uiStartLoading());
-    const { data } = await axios.get(api.account.info());
+    const { data } = await axios.get(api.account.currentPlan());
     dispatch({
-      type: types.SET_ACCOUNT_INFO,
+      type: types.SET_CURRENT_ACCOUNT_PLAN,
       payload: data
     });
     dispatch(uiStopLoading());
@@ -26,7 +26,6 @@ export const updateAccountPassword = (payload) => async dispatch => {
     dispatch(uiStopLoading());
     alert('Your password was successfully changed!')
   } catch (error) {
-    dispatch(uiStopLoading());
     alert('Something went wrong, please, try again');
   }
 };

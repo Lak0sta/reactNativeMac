@@ -148,7 +148,6 @@ class AccountScreen extends React.Component {
   }
 
   render() {
-    let forgotPassContent = null;
     let profile = (
       <View style={styles.accountInfo}>
         <View style={styles.accountItem}>
@@ -168,13 +167,19 @@ class AccountScreen extends React.Component {
             </ButtonWithBackground>
       </View>
     );
-    if (this.state.showPasswordFields) {
-      forgotPassContent = (
+    if (this.props.isLoading) {
+      profile = <ActivityIndicator />
+    }
+
+    return (
+      <View style={styles.container}>
+        {profile}
         <Animated.View
           style={[
             { opacity: !this.state.showPasswordFields ? this.state.removeAnim : this.state.startAnim },
-            styles.togglePassword
+            styles.togglePassword,
           ]}
+          pointerEvents={this.state.showPasswordFields ? null : "none"}
         >
           <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
             <View style={styles.inputContainer}>
@@ -228,17 +233,6 @@ class AccountScreen extends React.Component {
             </ButtonWithBackground>
           </View>
         </Animated.View>
-      );
-    }
-
-    if (this.props.isLoading) {
-      profile = <ActivityIndicator />
-    }
-
-    return (
-      <View style={styles.container}>
-        {profile}
-        {forgotPassContent}
         <View style={{ marginBottom: 15 }}>
           <ButtonWithBackground
             color="#2ac414"

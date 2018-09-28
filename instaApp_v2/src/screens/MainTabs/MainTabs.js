@@ -11,7 +11,7 @@ const startTabs = () => {
     Navigation.startTabBasedApp({
       tabs: [
         {
-          screen: "insta-appv2.FeedScreen",
+          screen: "insta-appv2.HomeScreen",
           icon: sources[0],
           navigatorStyle: {
             navBarHidden: true

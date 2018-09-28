@@ -4,11 +4,13 @@ import thunk from 'redux-thunk';
 import uiReducer from './reducers/ui';
 import authReducer from './reducers/auth';
 import accountReducer from './reducers/account';
+import homeReducer from './reducers/home';
 
 const rootReducer = combineReducers({
     ui: uiReducer,
     auth: authReducer,
-    account: accountReducer
+    account: accountReducer,
+    home: homeReducer
 });
 
 let composeEnhancers = compose;

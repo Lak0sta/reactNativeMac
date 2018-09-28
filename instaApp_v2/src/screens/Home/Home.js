@@ -1,13 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Header from '../../components/HomeScreen/Header';
+import StorageIndicator from '../../components/StorageIndicator';
 
-export default class FeedScreen extends React.Component {
+class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Feed Screen</Text>
-        <Text>Feed Screen</Text>
-        <Text>Feed Screen</Text>
+        <Header />
+        <StorageIndicator />
       </View>
     );
   }
@@ -18,6 +19,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
+    justifyContent: 'center'
+  }
 });
+
+export default HomeScreen;

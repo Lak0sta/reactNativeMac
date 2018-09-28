@@ -15,6 +15,15 @@ const account = {
   },
   updatePassword() {
     return `${baseUrl}account/password`
+  },
+  currentPlan() {
+    return `${baseUrl}account/plan`
+  }
+}
+
+const home = {
+  avaialblePlans() {
+    return `${baseUrl}plans`
   }
 }
 
@@ -51,5 +60,6 @@ const events = {
 export const api = {
   auth,
   events,
-  account
+  account,
+  home
 }

@@ -22,6 +22,7 @@ const signUp = async payload => {
     alert('Your request was successfully sent, please check you email for account activation')
     dispatch(uiStopLoading());
   } catch (err) {
+    dispatch(uiStopLoading());
     if (err.response.status === 400) {
       alert('Something went wrong with data, check input fields');
     } else {
@@ -42,6 +43,7 @@ const logIn = async (dispatch, payload) => {
     startMainTabs();
     dispatch(uiStopLoading());
   } catch(err) {
+    dispatch(uiStopLoading());
     if (err.response.status === 400) {
       alert(`${err.response.data.errors[0].message}`)
     } else if (err.response.status === 500) {
